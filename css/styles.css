@@ -1,0 +1,11 @@
+body {
+  max-width: 1000px;
+}
+.heading,
+.main.card {
+  max-width: 100%;
+}
+
+img {
+  max-width: 100%;
+}
