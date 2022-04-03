@@ -18,6 +18,23 @@ header {
   padding-top: 50px;
 }
 
+h1,
+h2 {
+  font-weight: 600;
+  margin: 40px 10px;
+}
+
+h3,
+a {
+  font-weight: 800;
+  margin: 40px 10px;
+}
+
+p {
+  font-weight: 400;
+  margin: 20px 10px;
+}
+
 img {
   max-width: 100%;
 }
@@ -60,9 +77,9 @@ ul {
   display: block;
 }
 
-/*#hamburger {
+#hamburger {
   display: none;
-}*/
+}
 
 .fa,
 .fas {
@@ -75,6 +92,7 @@ ul {
 
 .main-card {
   display: grid;
+  box-shadow: 0px 15px 15px #afafaf;
 }
 
 .cta,
@@ -84,17 +102,29 @@ ul {
   padding: 15px;
 }
 
+.heading-index {
+  background-image: url(/images/milkyway.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-width: 100%;
+  min-height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+
 .heading-index h1,
 .heading-index p {
   color: #edffc5;
-  position: relative;
-  top: -450px;
-  text-align: center;
 }
 
 .heading-index .cta {
   color: #141329;
   position: relative;
-  top: -200px;
-  padding: 15px 100px;
+  padding: 15px;
+}
+
+footer {
+  background-color: #edffc5;
 }
