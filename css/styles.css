@@ -77,7 +77,24 @@ ul {
   display: grid;
 }
 
+.cta,
 .cta-card {
   text-align: center;
   margin: 20px;
+  padding: 15px;
+}
+
+.heading-index h1,
+.heading-index p {
+  color: #edffc5;
+  position: relative;
+  top: -450px;
+  text-align: center;
+}
+
+.heading-index .cta {
+  color: #141329;
+  position: relative;
+  top: -200px;
+  padding: 15px 100px;
 }
