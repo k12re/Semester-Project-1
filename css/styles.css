@@ -195,23 +195,13 @@ footer {
 .type-h1 {
   margin: 40px 28px;
   width: 18ch;
-  animation-name: typing;
-  animation-duration: 2s;
-  animation-timing-function: steps(18, jump-end);
   white-space: nowrap;
   overflow: hidden;
   border-right: 4px solid;
   font-family: "League Spartan";
   font-size: 2em;
+  animation: typing 2s steps(18), blink 0.5s step-end infinite alternate;
 }
-
-/*.type-h1 {
-  animation-name: blink;
-  animation-duration: 0.7s;
-  animation-timing-function: step-end;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}*/
 
 @keyframes typing {
   from {
