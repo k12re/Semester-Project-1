@@ -23,6 +23,9 @@ header {
 .heading {
   min-height: 100vh;
   background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .heading h1 {
@@ -38,7 +41,7 @@ header {
 h1,
 h2 {
   font-weight: 600;
-  margin: 40px 10px;
+  margin: 20px 10px;
 }
 
 h3,
@@ -132,11 +135,6 @@ footer {
   color: #edffc5;
 }
 
-.heading-index .cta {
-  color: #141329;
-  position: relative;
-  padding: 15px;
-}
 .heading-index {
   background-image: url(/images/milkyway.jpg);
   background-size: cover;
@@ -150,7 +148,41 @@ footer {
   text-align: center;
 }
 
+.heading-index .cta {
+  color: #141329;
+  position: relative;
+  padding: 15px;
+  bottom: -70px;
+}
+
+.arrow-down {
+  width: 0px;
+  height: 0px;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #d1fe6b;
+  align-self: center;
+}
+
 /* ANIMATION ---------- */
+
+.arrow-down {
+  animation-name: hover;
+  animation-duration: 1s;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes hover {
+  from {
+    margin-bottom: 10px;
+  }
+
+  to {
+    margin-bottom: 0px;
+  }
+}
 
 .type-wrapper {
   display: flex;
