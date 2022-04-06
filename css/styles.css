@@ -194,7 +194,7 @@ footer {
 
 .type-h1 {
   margin: 40px 28px;
-  width: 18ch;
+  width: 15ch;
   white-space: nowrap;
   overflow: hidden;
   border-right: 4px solid;
@@ -208,7 +208,7 @@ footer {
     width: 0;
   }
   to {
-    width: 18;
+    width: 15;
   }
 }
 
