@@ -85,15 +85,18 @@ nav {
 }
 
 nav li {
-  padding: 5px;
+  padding: 8px;
   display: block;
 }
 
 ul {
   list-style: none;
+  padding-left: 0px;
+  padding-right: 40px;
 }
 
-.navigation a {
+.navigation a,
+footer a {
   font-size: 18px;
   font-weight: 400;
   padding: 5px 0px;
