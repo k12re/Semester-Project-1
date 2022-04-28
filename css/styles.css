@@ -79,9 +79,10 @@ nav {
   padding: 10px 30px;
   position: fixed;
   top: 50px;
-  left: 40px;
+  right: 0px;
   z-index: 100;
   display: none;
+  height: 100vh;
 }
 
 nav li {
@@ -97,7 +98,7 @@ ul {
   display: none;
 }
 
-#hamburger:checked ~ nav li {
+#hamburger:checked ~ nav {
   display: block;
 }
 
