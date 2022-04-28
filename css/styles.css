@@ -93,6 +93,12 @@ ul {
   list-style: none;
 }
 
+.navigation a {
+  font-size: 18px;
+  font-weight: 400;
+  padding: 5px 0px;
+}
+
 #hamburger {
   display: none;
 }
