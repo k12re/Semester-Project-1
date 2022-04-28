@@ -81,7 +81,6 @@ nav {
   top: 50px;
   right: 0px;
   z-index: 100;
-  display: none;
   height: 100vh;
 }
 
@@ -96,10 +95,6 @@ ul {
 
 #hamburger {
   display: none;
-}
-
-#hamburger:checked ~ nav {
-  display: block;
 }
 
 .fa,
@@ -177,6 +172,19 @@ footer {
 }
 
 /* ANIMATION ---------- */
+
+nav {
+  transition-property: transform;
+  transition-duration: 0.5s;
+}
+
+nav {
+  transform: translateX(300px);
+}
+
+#hamburger:checked ~ nav {
+  transform: translateX(10px);
+}
 
 .arrow-down {
   position: absolute;
