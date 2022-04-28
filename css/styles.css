@@ -144,6 +144,26 @@ footer {
   padding: 15px 0px;
 }
 
+#contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-card {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.contact-card .cta {
+  margin: 20px 0px;
+  border: #d1fe6b;
+}
+
+textarea {
+  min-height: 100px;
+}
+
 /* INDEX ---------- */
 
 .heading-index h1,
