@@ -97,7 +97,7 @@ ul {
   display: none;
 }
 
-#hamburger:checked ~ nav {
+#hamburger:checked ~ nav li {
   display: block;
 }
 
@@ -127,6 +127,7 @@ ul {
 footer {
   background-color: #edffc5;
   display: flex;
+  justify-content: space-between;
 }
 
 .column {
