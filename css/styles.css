@@ -2,7 +2,7 @@
 
 body {
   font-family: "League Spartan", sans-serif;
-  max-width: 1000px;
+  max-width: 100%;
   margin: auto 0px;
 }
 
@@ -36,6 +36,14 @@ header {
 .heading h2,
 .heading p {
   color: #edffc5;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1em;
 }
 
 h1,
@@ -98,8 +106,8 @@ ul {
 .navigation a,
 footer a {
   font-size: 18px;
-  font-weight: 400;
-  padding: 5px 0px;
+  font-weight: 200;
+  padding: 6px 0px;
 }
 
 #hamburger {
@@ -187,8 +195,11 @@ textarea {
 .heading-index .cta {
   color: #141329;
   position: relative;
+  margin: 0px auto;
   padding: 15px;
   bottom: -10px;
+  min-width: 340px;
+  max-width: 345px;
 }
 
 .arrow-down {
@@ -264,5 +275,51 @@ nav {
 @keyframes blink {
   50% {
     border-color: transparent;
+  }
+}
+
+/* MEDIA ---------- */
+
+/*MID SIZE -----*/
+
+@media only screen and (min-width: 600px) {
+  main {
+    max-width: 600px;
+    margin: 0px auto;
+  }
+
+  .heading {
+    min-height: 100vh;
+  }
+
+  section {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+  }
+
+  .main-card,
+  .card {
+    max-width: 100%;
+    padding: 15px;
+  }
+
+  footer {
+    justify-content: space-around;
+  }
+}
+
+/* MAX SIZE -----*/
+
+@media only screen and (min-width: 900px) {
+  main,
+  .heading,
+  .heading-index {
+    max-width: 1236px;
+    margin: 0px auto;
+  }
+
+  .heading img {
+    max-height: 600px;
+    object-fit: cover;
   }
 }
