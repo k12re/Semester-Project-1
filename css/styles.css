@@ -301,6 +301,7 @@ nav {
   .card {
     max-width: 100%;
     padding: 15px;
+    max-height: 100vh;
   }
 
   footer {
