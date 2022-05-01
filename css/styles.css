@@ -248,7 +248,7 @@ textarea {
 
 .main-card:hover {
   transition-duration: 0.5s;
-  box-shadow: 0px 20px 20px #afafaf;
+  box-shadow: 0px 30px 30px #afafaf;
 }
 
 nav {
