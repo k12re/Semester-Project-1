@@ -43,6 +43,10 @@ h1 {
 }
 
 h2 {
+  font-size: 1.5em;
+}
+
+h3 {
   font-size: 1em;
 }
 
@@ -103,11 +107,14 @@ ul {
   padding-right: 40px;
 }
 
-.navigation a,
-footer a {
-  font-size: 18px;
+.navigation a {
   font-weight: 200;
   padding: 6px 0px;
+}
+
+.nav-heading {
+  font-size: 36px;
+  font-weight: 400;
 }
 
 #hamburger {
@@ -141,6 +148,11 @@ footer {
   background-color: #edffc5;
   display: flex;
   justify-content: space-between;
+  font-size: 18px;
+}
+
+footer a {
+  font-weight: 200;
 }
 
 .column {
@@ -184,7 +196,7 @@ textarea {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  min-width: 100%;
+  /*min-width: 100%;*/
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -219,7 +231,7 @@ nav {
 }
 
 nav {
-  transform: translateX(300px);
+  transform: translateX(350px);
 }
 
 #hamburger:checked ~ nav {
@@ -300,7 +312,7 @@ nav {
   .main-card,
   .card {
     max-width: 100%;
-    padding: 15px;
+    margin: 15px;
     max-height: 100vh;
   }
 
