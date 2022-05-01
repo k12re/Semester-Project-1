@@ -32,6 +32,10 @@ header {
   padding-top: 50px;
 }
 
+.heading p {
+  max-width: 1026px;
+}
+
 .heading h1,
 .heading h2,
 .heading p {
@@ -65,6 +69,7 @@ a {
 p {
   font-weight: 400;
   margin: 20px 10px;
+  /*font-size: 1.2em;*/
 }
 
 img {
@@ -77,13 +82,19 @@ img {
 
 a {
   text-decoration: none;
+  font-size: 1.2em;
 }
 
 .cta,
 .cta-card {
   color: #141329;
   background-color: #d1fe6b;
-  padding: 5px 50px;
+  font-weight: 800;
+  text-align: center;
+  margin: 20px 30px;
+  padding: 15px;
+  text-transform: uppercase;
+  font-size: 1.2em;
 }
 
 nav {
@@ -127,21 +138,13 @@ ul {
   padding-right: 10px;
 }
 
-.heading-index {
+/*.heading-index {
   top: 50px;
-}
+}*/
 
 .main-card {
   display: grid;
   box-shadow: 0px 15px 15px #afafaf;
-}
-
-.cta,
-.cta-card {
-  text-align: center;
-  margin: 20px;
-  padding: 15px;
-  text-transform: uppercase;
 }
 
 footer {
@@ -182,6 +185,7 @@ footer a {
 
 textarea {
   min-height: 100px;
+  max-width: 100%;
 }
 
 /* INDEX ---------- */
@@ -204,13 +208,18 @@ textarea {
   text-align: center;
 }
 
+.heading-index p {
+  max-width: 400px;
+  margin: 0px auto;
+}
+
 .heading-index .cta {
   color: #141329;
   position: relative;
   margin: 0px auto;
   padding: 15px;
   bottom: -10px;
-  min-width: 340px;
+  min-width: 300px;
   max-width: 345px;
 }
 
@@ -307,13 +316,19 @@ nav {
   section {
     display: grid;
     grid-template-columns: 33% 33% 33%;
+    margin-top: 2em;
   }
 
   .main-card,
   .card {
     max-width: 100%;
-    margin: 15px;
+    margin: 10px;
     max-height: 100vh;
+  }
+
+  .main-card img {
+    min-height: 100px;
+    object-fit: cover;
   }
 
   footer {
@@ -331,8 +346,64 @@ nav {
     margin: 0px auto;
   }
 
+  header {
+    justify-content: flex-start;
+  }
+
+  .main-card img {
+    min-height: 250px;
+    object-fit: cover;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card img {
+    flex-grow: 2;
+    object-fit: cover;
+  }
+
+  #roboticsandai,
+  #ecology {
+    grid-row: 1;
+    grid-column: 3;
+    max-height: 50%;
+  }
+
+  #roboticsandai {
+    align-self: start;
+  }
+
+  #ecology {
+    align-self: end;
+  }
+
+  #ecology img {
+    max-height: 150px;
+  }
+
+  #contact {
+    margin: 10px;
+  }
+
+  #contact textarea {
+    align-items: stretch;
+  }
+
   .heading img {
     max-height: 600px;
     object-fit: cover;
+  }
+
+  .heading h1,
+  .heading h2,
+  .heading p {
+    margin: 10px 150px;
+  }
+
+  .heading h1 {
+    margin-top: 10%;
   }
 }
