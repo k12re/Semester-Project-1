@@ -144,11 +144,16 @@ ul {
 
 .main-card {
   display: grid;
-  box-shadow: 0px 15px 15px #afafaf;
+  box-shadow: 0px 2px 2px #afafaf;
 }
 
 footer {
+  min-height: 10%;
   background-color: #edffc5;
+  background-image: url(/images/scienceequipment.jpg);
+  background-size: 20%;
+  background-repeat: no-repeat;
+  background-position: bottom;
   display: flex;
   justify-content: space-between;
   font-size: 18px;
@@ -161,10 +166,11 @@ footer a {
 .column {
   flex-direction: column;
   list-style: none;
+  padding-bottom: 6%;
 }
 
 .column li {
-  padding: 15px 0px;
+  padding: 10px 0px;
 }
 
 #contact {
@@ -233,6 +239,17 @@ textarea {
 }
 
 /* ANIMATION ---------- */
+
+.cta:hover,
+.cta-card:hover {
+  transition-duration: 0.5s;
+  box-shadow: 0px 10px 10px #afafaf;
+}
+
+.main-card:hover {
+  transition-duration: 0.5s;
+  box-shadow: 0px 20px 20px #afafaf;
+}
 
 nav {
   transition-property: transform;
@@ -332,7 +349,11 @@ nav {
   }
 
   footer {
-    justify-content: space-around;
+    justify-content: center;
+  }
+
+  .column {
+    margin: 0px 10%;
   }
 }
 
