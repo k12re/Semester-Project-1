@@ -98,6 +98,10 @@ a {
   align-self: end;
 }
 
+.contact-card .cta {
+  align-self: stretch;
+}
+
 nav {
   background-color: #edffc5;
   padding: 10px 30px;
@@ -177,21 +181,31 @@ footer a {
 #contact {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .contact-card {
   display: flex;
   flex-direction: column;
-  margin: 20px;
+  margin: 0px;
+}
+
+input,
+textarea {
+  border-width: 2px;
+  border-color: #141329;
+  padding-top: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .contact-card .cta {
-  margin: 20px 0px;
+  margin: 0px 0px;
   border: #d1fe6b;
 }
 
 textarea {
-  min-height: 100px;
+  min-height: 300px;
   max-width: 100%;
 }
 
@@ -349,12 +363,35 @@ nav {
     object-fit: cover;
   }
 
+  #roboticsandai,
+  #ecology {
+    grid-row: 1;
+    grid-column: 3;
+    max-height: 50%;
+  }
+
+  #roboticsandai {
+    align-self: start;
+  }
+
+  #ecology {
+    align-self: end;
+  }
+
+  #ecology img {
+    max-height: 150px;
+  }
+
   footer {
     justify-content: center;
   }
 
   .column {
     margin: 0px 6%;
+  }
+
+  main {
+    margin-bottom: 3%;
   }
 }
 
@@ -387,7 +424,7 @@ nav {
     object-fit: cover;
   }
 
-  #roboticsandai,
+  /*#roboticsandai,
   #ecology {
     grid-row: 1;
     grid-column: 3;
@@ -404,7 +441,7 @@ nav {
 
   #ecology img {
     max-height: 150px;
-  }
+  }*/
 
   #contact {
     margin: 10px;
@@ -427,5 +464,13 @@ nav {
 
   .heading h1 {
     margin-top: 10%;
+  }
+
+  textarea {
+    min-height: 450px;
+  }
+
+  main {
+    margin-bottom: 3%;
   }
 }
