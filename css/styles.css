@@ -187,16 +187,16 @@ footer a {
 .contact-card {
   display: flex;
   flex-direction: column;
-  margin: 0px;
+  margin: 10px;
 }
 
 input,
 textarea {
   border-width: 2px;
   border-color: #141329;
-  padding-top: 30px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 2em;
 }
 
 .contact-card .cta {
@@ -259,6 +259,16 @@ textarea {
 .cta-card:hover {
   transition-duration: 0.5s;
   box-shadow: 0px 10px 10px #afafaf;
+  text-shadow: none;
+}
+
+.heading-index .cta:hover {
+  box-shadow: 0px 20px 20px #141329;
+}
+
+a:hover {
+  transition-duration: 0.5s;
+  text-shadow: 0px 5px 5px #141329;
 }
 
 .main-card:hover {
@@ -336,6 +346,39 @@ nav {
 /*MID SIZE -----*/
 
 @media only screen and (min-width: 600px) {
+  label {
+    display: none;
+  }
+
+  nav {
+    height: 4vh;
+    left: -350px;
+    max-width: 100%;
+  }
+
+  nav li {
+    padding: 0px 8px;
+    display: inline;
+    font-size: 0.55em;
+  }
+
+  nav li:hover {
+    text-decoration: underline;
+  }
+
+  nav:hover {
+    transform: translate3d(100px 50% 5em);
+  }
+
+  /*nav:hover {
+    transform: translateY(-120px);
+    transform: translateY(10px);
+  }*/
+
+  /*header:hover ~ nav {
+    transform: translateY(-80px);
+  }*/
+
   main {
     max-width: 600px;
     margin: 0px auto;
@@ -392,6 +435,10 @@ nav {
 
   main {
     margin-bottom: 3%;
+  }
+
+  .contact-card {
+    margin: 0px;
   }
 }
 
