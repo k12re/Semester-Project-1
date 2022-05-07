@@ -66,6 +66,10 @@ a {
   margin: 40px 10px;
 }
 
+a:visited {
+  color: #141329;
+}
+
 p {
   font-weight: 400;
   margin: 20px 10px;
@@ -347,6 +351,10 @@ nav {
 
 @media only screen and (min-width: 600px) {
   label {
+    display: none;
+  }
+
+  .sub-heading {
     display: none;
   }
 
