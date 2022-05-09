@@ -432,6 +432,7 @@ nav {
 
   #roboticsandai {
     align-self: start;
+    margin-top: 70px;
   }
 
   #ecology {
@@ -448,6 +449,7 @@ nav {
 
   .column {
     margin: 0px 6%;
+    padding-bottom: 4%;
   }
 
   main {
@@ -590,7 +592,7 @@ nav {
   }
 
   textarea {
-    min-height: 450px;
+    min-height: 510px;
   }
 
   main {
