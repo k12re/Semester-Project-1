@@ -89,6 +89,15 @@ a {
   font-size: 1.2em;
 }
 
+.highlight {
+  background-color: #edffc5;
+}
+
+.highlight {
+  padding: 20px 10px;
+  margin: 0%;
+}
+
 .cta,
 .cta-card {
   color: #141329;
@@ -124,7 +133,7 @@ nav li {
 ul {
   list-style: none;
   padding-left: 0px;
-  padding-right: 40px;
+  /*padding-right: 40px;*/
 }
 
 .navigation a {
@@ -164,8 +173,9 @@ footer {
   background-repeat: repeat-x;
   background-position: bottom;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  font-size: 18px;
+  font-size: 1em;
 }
 
 footer a {
@@ -186,6 +196,10 @@ footer a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+#kids h2 {
+  display: none;
 }
 
 .contact-card {
@@ -220,6 +234,20 @@ textarea {
 .desktop-p2,
 .desktop-p3 {
   display: none;
+}
+
+#teachers {
+  display: flex;
+  flex-direction: column;
+}
+
+#teachers h2,
+#teachers p {
+  transform: translateY(100px);
+}
+
+#teachers .highlight {
+  transform: translateY(0px);
 }
 
 /* INDEX ---------- */
@@ -443,6 +471,26 @@ nav {
     max-height: 150px;
   }
 
+  #teachers img,
+  #teachers .highlight {
+    transform: translateY(-120px);
+  }
+
+  #teachers p,
+  #teachers h2 {
+    z-index: 100;
+    transform: translateY(0%);
+  }
+
+  #researchers img,
+  #kids img {
+    max-height: 60%;
+  }
+
+  #kids h2 {
+    display: unset;
+  }
+
   footer {
     justify-content: center;
   }
@@ -512,6 +560,11 @@ nav {
     display: unset;
     grid-row: 3;
     grid-column: 2;
+  }
+
+  .mobile-p1,
+  .mobile-p2 {
+    display: none;
   }
 }
 
