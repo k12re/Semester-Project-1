@@ -81,7 +81,8 @@ img {
 }
 
 .logo {
-  padding-top: 5px;
+  padding-top: 25px;
+  min-width: 150%;
 }
 
 a {
