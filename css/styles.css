@@ -609,6 +609,7 @@ nav {
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: span 4;
+    height: 100%;
   }
 
   .desktop-p1 {
