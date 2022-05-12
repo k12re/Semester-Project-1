@@ -28,6 +28,11 @@ header {
   justify-content: space-between;
 }
 
+.csm {
+  font-size: 1.4em;
+  padding-top: 2%;
+}
+
 .heading h1 {
   padding-top: 50px;
 }
@@ -399,6 +404,15 @@ nav {
 
   .sub-heading {
     display: none;
+  }
+
+  .logo {
+    padding-top: 5px;
+    min-width: 100%;
+  }
+
+  .csm {
+    padding-top: 10px;
   }
 
   nav {
