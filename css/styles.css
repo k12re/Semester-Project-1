@@ -250,6 +250,11 @@ textarea {
   transform: translateY(0px);
 }
 
+#moved-higlight {
+  position: absolute;
+  top: 100%;
+}
+
 /* INDEX ---------- */
 
 .heading-index h1,
@@ -489,6 +494,11 @@ nav {
 
   #kids h2 {
     display: unset;
+  }
+
+  #moved-higlight {
+    position: unset;
+    /*top: 100%;*/
   }
 
   footer {
