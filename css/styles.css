@@ -130,7 +130,7 @@ nav {
 }
 
 nav li {
-  padding: 8px;
+  padding: 7px;
   display: block;
 }
 
@@ -145,7 +145,7 @@ ul {
 }
 
 .nav-heading {
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 400;
 }
 
