@@ -121,7 +121,7 @@ img {
 
 nav {
   background-color: #edffc5;
-  padding: 10px 30px;
+  padding: 0px 20px;
   position: fixed;
   top: 50px;
   right: 0px;
@@ -141,7 +141,7 @@ ul {
 
 .navigation a {
   font-weight: 200;
-  padding: 6px 0px;
+  /*padding: 6px 0px;*/
 }
 
 .nav-heading {
@@ -391,7 +391,7 @@ nav {
 
 /* MEDIA ---------- */
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 900px) {
   label {
     display: none;
   }
