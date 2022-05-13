@@ -476,7 +476,7 @@ nav {
   .heading,
   .heading-index {
     max-width: 1236px;
-    margin: 0px auto;
+    margin: 0px auto 60px;
   }
 
   header {
