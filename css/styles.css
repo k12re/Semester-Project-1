@@ -73,7 +73,7 @@ a {
 }
 
 a:visited {
-  color: #141329;
+  color: #0e0e0c;
 }
 
 p {
@@ -91,6 +91,7 @@ img {
 }
 
 a {
+  color: #141329;
   text-decoration: none;
   font-size: 1.2em;
 }
@@ -188,7 +189,7 @@ footer a {
 .column {
   flex-direction: column;
   list-style: none;
-  padding-bottom: 6%;
+  padding-bottom: 5vh;
 }
 
 .column li {
@@ -425,7 +426,7 @@ nav {
   }
 
   nav {
-    height: 4vh;
+    height: 5vh;
     left: -350px;
     max-width: 100%;
   }
