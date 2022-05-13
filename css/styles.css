@@ -577,6 +577,10 @@ nav {
     align-items: stretch;
   }
 
+  form label {
+    display: unset;
+  }
+
   .column {
     margin: 0px 6%;
     padding-bottom: 4%;
