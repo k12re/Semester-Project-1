@@ -544,12 +544,6 @@ nav {
     transform: translateY(0%);
   }
 
-  /*#researchers img,
-  #kids img,
-  #teachers img {
-    max-height: 60%;
-  }*/
-
   #kids h2 {
     display: unset;
   }
