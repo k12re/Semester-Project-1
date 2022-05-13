@@ -464,6 +464,7 @@ nav {
   .card {
     max-width: 100%;
     margin: 10px;
+    max-height: 1000px;
   }
 
   .main-card img {
@@ -485,7 +486,6 @@ nav {
   .main-card img {
     min-height: 260px;
     object-fit: cover;
-    max-height: 600px;
   }
 
   .main-card .img2,
