@@ -141,7 +141,10 @@ ul {
 
 .navigation a {
   font-weight: 200;
-  /*padding: 6px 0px;*/
+}
+
+.current {
+  text-decoration: underline;
 }
 
 .nav-heading {
