@@ -322,6 +322,10 @@ a:hover {
   text-shadow: 0px 5px 5px #141329;
 }
 
+.csm:hover {
+  text-shadow: none;
+}
+
 .main-card:hover {
   transition-duration: 0.5s;
   box-shadow: 0px 30px 30px #afafaf;
