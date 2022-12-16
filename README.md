@@ -10,7 +10,7 @@ The project was to design, and ultimately create a museum webpage designed using
 
 The site is about a community driven museum.
 We were given the task to create their webpage. It is a museum for kids, and also families with kids.
-It has a homepage, an explore section, exhibitions and also a involvment section and visit page.
+It has a homepage, an explore section, exhibitions and also a involvement section and visit page.
 
 - Responsive
 - WCAG
